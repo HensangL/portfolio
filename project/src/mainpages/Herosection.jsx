@@ -4,6 +4,7 @@ import image from '../image/image.jpg'; // Replace with your image path
 function Herosection() {
   return (
     <div className="bg-white min-h-screen flex items-center justify-center px-4 py-10">
+      <section id="home">
       <div className="max-w-6xl w-full text-center flex flex-col items-center space-y-10">
 
         {/* Hello tag */}
@@ -52,6 +53,7 @@ function Herosection() {
           </div>
         </div>
       </div>
+      </section>
     </div>
   );
 }

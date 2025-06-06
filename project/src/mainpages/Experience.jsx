@@ -30,6 +30,7 @@ function Experience() {
 
   return (
     <div className="mt-20 px-4 md:px-10">
+      <section id='experience'>
       <h1 className="text-center text-4xl font-semibold font-serif mb-16">
         My Work Experience
       </h1>
@@ -64,6 +65,7 @@ function Experience() {
           </div>
         ))}
       </div>
+      </section>
     </div>
   );
 }

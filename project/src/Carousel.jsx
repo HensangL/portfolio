@@ -24,6 +24,7 @@ function Carousel() {
 
   return (
     <div className="relative w-full max-w-4xl mx-auto mt-10">
+      <section id='project'>
       <div className="flex flex-col sm:flex-row justify-between items-center mb-6 px-4">
         <h1 className="text-2xl font-bold mb-4 sm:mb-0">Let's Have a Look at my Portfolio</h1>
         <button className="px-6 py-2 text-orange-500 border border-orange-500 rounded-full hover:bg-orange-500 hover:text-white transition-colors">
@@ -67,6 +68,7 @@ function Carousel() {
           />
         ))}
       </div>
+      </section>
     </div>
   );
 }

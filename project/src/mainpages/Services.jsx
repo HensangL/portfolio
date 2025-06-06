@@ -4,6 +4,7 @@ import image from '../image/image.jpg'
 function Services() {
   return (
     <div className="bg-[#212121] rounded-4xl px-6 py-10">
+      <section id="service">
       {/* Header Section */}
       <div className="flex flex-col md:flex-row text-white md:gap-[375px] gap-6 md:items-start md:ml-[148px]">
         <h1 className="text-3xl font-sans font-medium">My services</h1>
@@ -22,6 +23,7 @@ function Services() {
         <Card title="Web design" img={image} />
 
       </div>
+      </section>
     </div>
   );
 }
