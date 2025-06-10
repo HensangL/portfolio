@@ -15,7 +15,7 @@ function Herosection() {
         {/* Headline */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
           I’m <span className="text-orange-600">Biplob,</span><br />
-          Web Developer
+          Graphic Designer.
         </h1>
 
         {/* Main Content Section */}
@@ -24,8 +24,8 @@ function Herosection() {
           {/* Left - Testimonial */}
           <div className="flex-1 text-gray-600">
             <p className="text-4xl font-bold text-gray-900 mb-2">“</p>
-            <p>Biplob's exceptional product design ensured our website’s success. Highly recommended!</p>
-            <p className="mt-4 text-xl font-bold">450+ <span className="font-normal text-sm">Clients Served</span></p>
+            <p>Biplob’s graphic design work elevated our brand identity with precision and creativity. A reliable designer with exceptional attention to detail.</p>
+            <p className="mt-4 text-xl font-bold">200+ <span className="font-normal text-sm">Clients Served</span></p>
           </div>
 
           {/* Center - Image and Buttons */}
@@ -37,10 +37,12 @@ function Herosection() {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mt-10 z-10">
               <button className="bg-orange-600 text-white px-6 py-3 rounded-full font-medium hover:bg-orange-700 transition">
-                Portfolio →
+                <a href="#project">Portfolio →</a>
+                
               </button>
               <button className="border border-gray-400 text-gray-800 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition">
-                Hire Me
+                <a href="#footer">Hire Me</a>
+                
               </button>
             </div>
           </div>
@@ -48,7 +50,7 @@ function Herosection() {
           {/* Right - Experience */}
           <div className="flex-1 flex flex-col items-center md:items-end ">
             <div className="text-orange-600 text-2xl mb-2">★★★★★</div>
-            <p className="text-3xl font-semibold">10 Years</p>
+            <p className="text-3xl font-semibold">3 Years</p>
             <p className="text-gray-600">Experience</p>
           </div>
         </div>
