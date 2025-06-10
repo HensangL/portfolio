@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../image/image.jpg'; // Replace with your image path
+import image from '../image/profile-pic.png'; // Replace with your image path
 
 function Herosection() {
   return (
@@ -14,7 +14,7 @@ function Herosection() {
 
         {/* Headline */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-          I’m <span className="text-orange-600">Hensang,</span><br />
+          I’m <span className="text-orange-600">Biplob,</span><br />
           Web Developer
         </h1>
 
@@ -24,7 +24,7 @@ function Herosection() {
           {/* Left - Testimonial */}
           <div className="flex-1 text-gray-600">
             <p className="text-4xl font-bold text-gray-900 mb-2">“</p>
-            <p>Hensang's exceptional product design ensured our website’s success. Highly recommended!</p>
+            <p>Biplob's exceptional product design ensured our website’s success. Highly recommended!</p>
             <p className="mt-4 text-xl font-bold">450+ <span className="font-normal text-sm">Clients Served</span></p>
           </div>
 

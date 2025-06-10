@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../image/image.jpg';
+import image from '../image/profile-pic.png';
 
 function Hire() {
   return (
@@ -13,7 +13,7 @@ function Hire() {
 
       {/* Content */}
       <div className="flex flex-col w-full max-w-2xl">
-        <h1 className="text-3xl md:text-5xl font-semibold mb-4">
+        <h1 className="text-3xl font-serif md:text-3xl font-semibold mb-4">
           Why hire me for your next project?
         </h1>
 

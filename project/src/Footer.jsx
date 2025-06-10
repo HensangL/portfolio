@@ -12,9 +12,9 @@ function Footer() {
             <div className="lg:col-span-1">
               <h2 className="text-2xl font-bold mb-4 text-white">Let's Comment there</h2>
               <div className="bg-gray-800 p-6 rounded-lg shadow-sm">
-                <h3 className="font-semibold text-lg mb-2 text-orange-500">Jenny</h3>
+                <h3 className="font-semibold text-lg mb-2 text-orange-500">Biplob Pokhrel</h3>
                 <p className="text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  I'm a graphic designer who blends creativity with strategy to craft bold, impactful visuals. From branding to digital design, I help ideas come to life — beautifully and effectively.
                 </p>
               </div>
             </div>
@@ -38,8 +38,7 @@ function Footer() {
               <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>
               <ul className="space-y-2 text-gray-300">
                 <li>+0123-456-789</li>
-                <li>www.example.com</li>
-                <li>example@gmail.com</li>
+                <li>biplobpokhrel1@gmail.com</li>
               </ul>
               <div className="flex space-x-4 mt-4">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-500 text-xl">

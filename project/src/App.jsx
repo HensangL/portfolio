@@ -12,10 +12,12 @@ function App() {
     <div>
       <Navbar/>
       <Herosection/>
+            <Experience/>
+
       <Services/>
-      <Experience/>
-      <Hire/>
       <Carousel/>
+            <Hire/>
+
       <Footer/>
 
 
